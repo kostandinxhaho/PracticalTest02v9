@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+
+        android:padding="16dp"
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+
+
+        <!-- SERVER -->
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Server Port" />
+
+
+
+        <EditText
+
+            android:id="@+id/etPort"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="e.g. 12345"
+
+            android:inputType="number" />
+
+
+
+        <Button
+
+            android:id="@+id/btnStartServer"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Start Server" />
+
+
+
+        <Button
+
+            android:id="@+id/btnStopServer"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Stop Server" />
+
+
+
+        <!-- CLIENT -->
+
+        <View
+
+            android:layout_width="match_parent"
+
+            android:layout_height="16dp"/>
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Word" />
+
+
+
+        <EditText
+
+            android:id="@+id/etWord"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="program" />
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Minimum letters" />
+
+
+
+        <EditText
+
+            android:id="@+id/etMinLetters"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="4"
+
+            android:inputType="number" />
+
+
+
+        <Button
+
+            android:id="@+id/btnSendRequest"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Send Request (Client)" />
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Result" />
+
+
+
+        <TextView
+
+            android:id="@+id/tvResult"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="(result here)"
+
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
